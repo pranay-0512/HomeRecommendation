@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  /* background: linear-gradient(to bottom, #669999 0%, #ffffff 100%); */
+  background-color: #b4d6f8;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  margin: 0px 10px 0px 10px;
+  /* Add any other desired styles */
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  /* Add any other desired styles for focus state */
+}
+.button-down {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Add any other desired styles */
+}
+
+.button-down:hover {
+  background-color: #0056b3;
+  /* Add any other desired styles for hover state */
+}
+
+.button-down:active {
+  background-color: #004184;
+  /* Add any other desired styles for active (click) state */
+}
